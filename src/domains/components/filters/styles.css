@@ -1,0 +1,56 @@
+.search-bar {
+  margin-top: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 20px;
+  border: 2px solid #282c34;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input:focus {
+  border-color: #282c34;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.filters select {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 2px solid #282c34;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  appearance: none;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.filters select:focus {
+  border-color: #282c34;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filters select option {
+  color: #000;
+  background-color: #fff;
+}
+
+.filters select option[disabled] {
+  color: #999;
+}

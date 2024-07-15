@@ -1,0 +1,64 @@
+.skeleton-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.skeleton-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  flex: 1 1 calc(33% - 20px);
+  max-width: calc(33% - 20px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  animation: pulse 1.5s infinite;
+}
+
+.skeleton-image {
+  width: 100%;
+  height: 200px;
+  background-color: #e0e0e0;
+}
+
+.skeleton-content {
+  padding: 20px;
+}
+
+.skeleton-line {
+  height: 20px;
+  background-color: #e0e0e0;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.skeleton-line-1 {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.skeleton-line-2 {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.skeleton-line-3 {
+  width: 50%;
+  margin: 10px auto;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #f0f0f0;
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}

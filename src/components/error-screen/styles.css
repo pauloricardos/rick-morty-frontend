@@ -1,0 +1,20 @@
+.error-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  color: #d9534f;
+  min-height: 100vh;
+
+  .error-screen h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .error-screen p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+}

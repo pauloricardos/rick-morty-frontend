@@ -1,0 +1,33 @@
+.character-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  flex: 1 1 calc(33% - 20px);
+  max-width: fit-content;
+  min-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+}
+
+.character-card .card-content {
+  padding: 20px;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-content h2 {
+  max-width: min-content;
+}
